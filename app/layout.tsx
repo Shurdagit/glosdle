@@ -4,9 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "GLOSDLE",
   description: "Gissa det hemliga svenska ordet på 5 bokstäver. Sex försök. Ett nytt ord varje dag.",
-  keywords: ["wordle", "svenska", "ordspel", "gissningsspel"],
+  keywords: ["wordle", "svenska", "ordspel", "gissningsspel", "dagligt spel", "5 bokstäver", "glosdle"],
   openGraph: {
-    title: "ORDLA – Svenska Wordle",
+    title: "GLOSDLE – Gissa det hemliga ordet",
     description: "Gissa det hemliga svenska ordet på 5 bokstäver!",
     type: "website",
   },
