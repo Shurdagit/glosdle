@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { getDailyWord, getYesterdayWord } from "@/lib/words";
-
+import { getDailyWord, getYesterdayWord } from "../../../lib/words";
 export async function GET() {
   // Använd Stockholm/Swedish timezone
   const now = new Date();
