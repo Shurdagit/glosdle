@@ -813,7 +813,7 @@ export const VALID_GUESSES: Set<string> = new Set([
 "VÄRKT", "VÄRME", "VÄRNA", "VÄRNE", "VÄRNS", "VÄRNT", "VÄRPA", "VÄRPE", "VÄRPS", "VÄRPT",
 "VÄRPA", "VÄRPE", "VÄRPS", "VÄRPT", "VÄRTA", "VÄRTE", "VÄRTS", "VÄSAD", "VÄSAR", "VÄSAS",
 "VÄSAT", "VÄSEN", "VÄSER", "VÄTTA", "VÄTTE", "VÄTTS", "VÄTTT", "ÄCKLA", "ÄCKLE", "ÄCKLT",
-"ÄDLAR", "ÄDLAS", "ÄDLAT", "ÄDLARE", "ÄDLING", "ÄGAND", "ÄGARN", "ÄGARS", "ÄGART", "ÄGDES",
+"ÄDLAR", "ÄDLAS", "ÄDLAT", "ÄGAND", "ÄGARN", "ÄGARS", "ÄGART", "ÄGDES",
 "ÄGGET", "ÄGGIG", "ÄGGIS", "ÄGGIT", "ÄKTA", "ÄKTAS", "ÄKTAT", "ÄLGEN", "ÄLGAR", "ÄLGIG",
 "ÄLSKA", "ÄLSKE", "ÄLSKS", "ÄLSKT", "ÄLVAR", "ÄLVAS", "ÄLVAT", "ÄLVEN", "ÄLVOR", "ÄMNET",
 "ÄNDAS", "ÄNDAT", "ÄNDER", "ÄNDRA", "ÄNDRE", "ÄNDRT", "ÄNGEL", "ÄNGEN", "ÄNGER", "ÄNGRA",
@@ -5633,7 +5633,7 @@ export const VALID_GUESSES: Set<string> = new Set([
   "övrig",
   "gluff"
 
-        ]);
+        ].map(word => word.toUpperCase()));;
 
 /**
  * Enkel seedad pseudo-random (mulberry32) – ger samma tal för samma seed.
